@@ -1,212 +1,139 @@
 [data-tag^=".rm-font-"] {
   display: none !important;
 }
-
-[data-tag^=".rm-font-"]+.rm-highlight,
-[data-tag^=".rm-font-"]+span>.rm-page-ref--link {
+[data-tag^=".rm-font-"] + .rm-highlight,
+[data-tag^=".rm-font-"] + span > .rm-page-ref--link {
   color: white !important;
   border-radius: 5px;
   padding-left: 5px;
   padding-right: 5px;
   font-weight: bold;
 }
-
-[data-tag^=".rm-font-navy"]+.rm-highlight,
-[data-tag^=".rm-font-navy"]+span>.rm-page-ref--link {
-  background-color: #001F3F !important;
+/* ---------------------------------*/
+[data-tag^=".rm-font-navy"] + span > .rm-page-ref--link {
+  background-color: navy !important;
 }
-
-[data-tag^=".rm-font-navy"]+.rm-italics,
-[data-tag^=".rm-font-navy"]+.rm-bold {
-  color: #001F3F;
+[data-tag^=".rm-font-navy"] + .rm-italics,
+[data-tag^=".rm-font-navy"] + .rm-bold {
+  color: navy;
 }
-
-[data-tag^=".rm-font-blue"]+.rm-highlight,
-[data-tag^=".rm-font-blue"]+span>.rm-page-ref--link {
-  background-color: #0074D9 !important;
+/* ---------------------------------*/
+[data-tag^=".rm-font-blue"] + span > .rm-page-ref--link {
+  background-color: blue !important;
 }
-
-
-[data-tag^=".rm-font-blue"]+.rm-italics,
-[data-tag^=".rm-font-blue"]+.rm-bold {
-  color: #0074D9;
-
+[data-tag^=".rm-font-blue"] + .rm-italics,
+[data-tag^=".rm-font-blue"] + .rm-bold {
+  color: blue;
 }
-
-[data-tag^=".rm-font-aqua"]+.rm-highlight,
-[data-tag^=".rm-font-aqua"]+span>.rm-page-ref--link {
-  background-color: #7FDBFF !important;
+/* ---------------------------------*/
+[data-tag^=".rm-font-aqua"] + span > .rm-page-ref--link {
+  background-color: aqua !important;
 }
-
-[data-tag^=".rm-font-aqua"]+.rm-italics,
-[data-tag^=".rm-font-aqua"]+.rm-bold {
-  color: #7FDBFF;
-
+[data-tag^=".rm-font-aqua"] + .rm-italics,
+[data-tag^=".rm-font-aqua"] + .rm-bold {
+  color: aqua;
 }
-
-[data-tag^=".rm-font-teal"]+.rm-highlight,
-[data-tag^=".rm-font-teal"]+span>.rm-page-ref--link {
-  background-color: #39CCCC !important;
+/* ---------------------------------*/
+[data-tag^=".rm-font-teal"] + span > .rm-page-ref--link {
+  background-color: teal !important;
 }
-
-
-[data-tag^=".rm-font-teal"]+.rm-italics,
-[data-tag^=".rm-font-teal"]+.rm-bold {
-  color: #39CCCC;
-
+[data-tag^=".rm-font-teal"] + .rm-italics,
+[data-tag^=".rm-font-teal"] + .rm-bold {
+  color: teal;
 }
-
-
-[data-tag^=".rm-font-olive"]+.rm-highlight,
-[data-tag^=".rm-font-olive"]+span>.rm-page-ref--link {
-  background-color: #3D9970 !important;
+/* ---------------------------------*/
+[data-tag^=".rm-font-olive"] + span > .rm-page-ref--link {
+  background-color: olive !important;
 }
-
-[data-tag^=".rm-font-olive"]+.rm-italics,
-[data-tag^=".rm-font-olive"]+.rm-bold {
-  color: #3D9970;
-
+[data-tag^=".rm-font-olive"] + .rm-italics,
+[data-tag^=".rm-font-olive"] + .rm-bold {
+  color: olive;
 }
-
-[data-tag^=".rm-font-green"]+.rm-highlight,
-[data-tag^=".rm-font-green"]+span>.rm-page-ref--link {
-  background-color: #2ECC40 !important;
+/* ---------------------------------*/
+[data-tag^=".rm-font-green"] + span > .rm-page-ref--link {
+  background-color: green !important;
 }
-
-[data-tag^=".rm-font-green"]+.rm-italics,
-[data-tag^=".rm-font-green"]+.rm-bold {
-  color: #2ECC40;
-
+[data-tag^=".rm-font-green"] + .rm-italics,
+[data-tag^=".rm-font-green"] + .rm-bold {
+  color: green;
 }
-
-
-[data-tag^=".rm-font-lime"]+.rm-highlight,
-[data-tag^=".rm-font-lime"]+span>.rm-page-ref--link {
-
-  background-color: #01FF70 !important;
-
+/* ---------------------------------*/
+[data-tag^=".rm-font-lime"] + span > .rm-page-ref--link {
+  background-color: lime !important;
 }
-
-[data-tag^=".rm-font-lime"]+.rm-italics,
-[data-tag^=".rm-font-lime"]+.rm-bold {
-  color: #01FF70;
-
+[data-tag^=".rm-font-lime"] + .rm-italics,
+[data-tag^=".rm-font-lime"] + .rm-bold {
+  color: lime;
 }
-
-[data-tag^=".rm-font-yellow"]+.rm-highlight,
-[data-tag^=".rm-font-yellow"]+span>.rm-page-ref--link {
-
-  background-color: #FFDC00 !important;
-
+/* ---------------------------------*/
+[data-tag^=".rm-font-yellow"] + span > .rm-page-ref--link {
+  background-color: yellow !important;
 }
-
-[data-tag^=".rm-font-yellow"]+.rm-italics,
-[data-tag^=".rm-font-yellow"]+.rm-bold {
-  color: #FFDC00;
-
+[data-tag^=".rm-font-yellow"] + .rm-italics,
+[data-tag^=".rm-font-yellow"] + .rm-bold {
+  color: yellow;
 }
-
-[data-tag^=".rm-font-orange"]+.rm-highlight,
-[data-tag^=".rm-font-orange"]+span>.rm-page-ref--link {
-
-  background-color: #FF851B !important;
-
+/* ---------------------------------*/
+[data-tag^=".rm-font-orange"] + span > .rm-page-ref--link {
+  background-color: orange !important;
 }
-
-[data-tag^=".rm-font-orange"]+.rm-italics,
-[data-tag^=".rm-font-orange"]+.rm-bold {
-  color: #FF851B;
-
+[data-tag^=".rm-font-orange"] + .rm-italics,
+[data-tag^=".rm-font-orange"] + .rm-bold {
+  color: orange;
 }
-
-
-[data-tag^=".rm-font-red"]+.rm-highlight,
-[data-tag^=".rm-font-red"]+span>.rm-page-ref--link {
-
-  background-color: #FF4136 !important;
-
+/* ---------------------------------*/
+[data-tag^=".rm-font-red"] + span > .rm-page-ref--link {
+  background-color: red !important;
 }
-
-[data-tag^=".rm-font-red"]+.rm-italics,
-[data-tag^=".rm-font-red"]+.rm-bold {
-  color: #FF4136;
-
+[data-tag^=".rm-font-red"] + .rm-italics,
+[data-tag^=".rm-font-red"] + .rm-bold {
+  color: red;
 }
-
-[data-tag^=".rm-font-fuchsia"]+.rm-highlight,
-[data-tag^=".rm-font-fuchsia"]+span>.rm-page-ref--link {
-
-  background-color: #F012BE !important;
-
+/* ---------------------------------*/
+[data-tag^=".rm-font-fuchsia"] + span > .rm-page-ref--link {
+  background-color: fuchsia !important;
 }
-
-[data-tag^=".rm-font-fuchsia"]+.rm-italics,
-[data-tag^=".rm-font-fuchsia"]+.rm-bold {
-  color: #F012BE;
-
+[data-tag^=".rm-font-fuchsia"] + .rm-italics,
+[data-tag^=".rm-font-fuchsia"] + .rm-bold {
+  color: fuchsia;
 }
-
-[data-tag^=".rm-font-purple"]+.rm-highlight,
-[data-tag^=".rm-font-purple"]+span>.rm-page-ref--link {
-
-  background-color: #B10DC9 !important;
-
+/* ---------------------------------*/
+[data-tag^=".rm-font-purple"] + span > .rm-page-ref--link {
+  background-color: purple !important;
 }
-
-[data-tag^=".rm-font-purple"]+.rm-italics,
-[data-tag^=".rm-font-purple"]+.rm-bold {
-
-  color: #B10DC9;
+[data-tag^=".rm-font-purple"] + .rm-italics,
+[data-tag^=".rm-font-purple"] + .rm-bold {
+  color: purple;
 }
-
-[data-tag^=".rm-font-maroon"]+.rm-highlight,
-[data-tag^=".rm-font-maroon"]+span>.rm-page-ref--link {
-
-  background-color: #85144B !important;
-
+/* ---------------------------------*/
+[data-tag^=".rm-font-maroon"] + span > .rm-page-ref--link {
+  background-color: maroon !important;
 }
-
-[data-tag^=".rm-font-maroon"]+.rm-italics,
-[data-tag^=".rm-font-maroon"]+.rm-bold {
-  color: #85144B;
-
+[data-tag^=".rm-font-maroon"] + .rm-italics,
+[data-tag^=".rm-font-maroon"] + .rm-bold {
+  color: maroon;
 }
-
-[data-tag^=".rm-font-silver"]+.rm-highlight,
-[data-tag^=".rm-font-silver"]+span>.rm-page-ref--link {
-
-  background-color: #DDDDDD !important;
-
+/* ---------------------------------*/
+[data-tag^=".rm-font-silver"] + span > .rm-page-ref--link {
+  background-color: silver !important;
 }
-
-[data-tag^=".rm-font-silver"]+.rm-italics,
-[data-tag^=".rm-font-silver"]+.rm-bold {
-  color: #DDDDDD;
-
+[data-tag^=".rm-font-silver"] + .rm-italics,
+[data-tag^=".rm-font-silver"] + .rm-bold {
+  color: silver;
 }
-
-[data-tag^=".rm-font-gray"]+.rm-highlight,
-[data-tag^=".rm-font-gray"]+span>.rm-page-ref--link {
-
-  background-color: #AAAAAA !important;
-
+/* ---------------------------------*/
+[data-tag^=".rm-font-gray"] + span > .rm-page-ref--link {
+  background-color: gray !important;
 }
-
-[data-tag^=".rm-font-gray"]+.rm-italics,
-[data-tag^=".rm-font-gray"]+.rm-bold {
-  color: #AAAAAA;
-
+[data-tag^=".rm-font-gray"] + .rm-italics,
+[data-tag^=".rm-font-gray"] + .rm-bold {
+  color: gray;
 }
-
-[data-tag^=".rm-font-black"]+.rm-highlight,
-[data-tag^=".rm-font-black"]+span>.rm-page-ref--link {
-
-  background-color: #111111 !important;
-
+/* ---------------------------------*/
+[data-tag^=".rm-font-black"] + span > .rm-page-ref--link {
+  background-color: black !important;
 }
-
-[data-tag^=".rm-font-black"]+.rm-italics,
-[data-tag^=".rm-font-black"]+.rm-bold {
-  color: #111111;
-
+[data-tag^=".rm-font-black"] + .rm-italics,
+[data-tag^=".rm-font-black"] + .rm-bold {
+  color: black;
 }

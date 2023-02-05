@@ -1,0 +1,68 @@
+@fontClassNameList: navy,
+  blue,
+  aqua,
+  teal,
+  olive,
+  green,
+  lime,
+  yellow,
+  orange,
+  red,
+  fuchsia,
+  purple,
+  maroon,
+  silver,
+  gray,
+  black;
+@fontColorList: navy,
+  blue,
+  aqua,
+  teal,
+  olive,
+  green,
+  lime,
+  yellow,
+  orange,
+  red,
+  fuchsia,
+  purple,
+  maroon,
+  silver,
+  gray,
+  black;
+
+[data-tag^=".rm-font-"] {
+  display: none !important;
+}
+
+[data-tag^=".rm-font-"]+.rm-highlight,
+[data-tag^=".rm-font-"]+span>.rm-page-ref--link {
+  color: white !important;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.genAllRmFontStyleStyle() {
+  .loop(@i) when (@i < length(@fontClassNameList) + 1) {
+    @fontClassName: extract(@fontClassNameList, @i);
+    @fontColor: extract(@fontColorList, @i);
+
+    /* ---------------------------------*/
+    [data-tag^=".rm-font-@{fontClassName}"]+span>.rm-page-ref--link {
+      background-color: @fontColor !important;
+    }
+
+    [data-tag^=".rm-font-@{fontClassName}"]+.rm-italics,
+    [data-tag^=".rm-font-@{fontClassName}"]+.rm-bold {
+      color: @fontColor;
+    }
+
+    .loop(@i + 1)
+  }
+
+  .loop(1)
+}
+
+.genAllRmFontStyleStyle();
