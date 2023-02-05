@@ -5,7 +5,6 @@ import "./rm-font.css"
 import "./rm-grid.css"
 import "./rm-level-font.css"
 import "./rm-level-bg.css"
-import "./rm-font.less"
 import "./global.css"
 
 const onload = () => {

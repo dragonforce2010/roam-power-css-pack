@@ -1,110 +1,26 @@
-/* 
-.navy { color: #001F3F; }
-.blue { color: #0074D9; }
-.aqua { color: #7FDBFF; }
-.teal { color: #39CCCC; }
-.olive { color: #3D9970; }
-.green { color: #2ECC40; }
-.lime { color: #01FF70; }
-.yellow { color: #FFDC00; }
-.orange { color: #FF851B; }
-.red { color: #FF4136; }
-.fuchsia { color: #F012BE; }
-.purple { color: #B10DC9; }
-.maroon { color: #85144B; }
-.silver { color: #DDDDDD; }
-.gray { color: #AAAAAA; }
-.black { color: #111111; }
-*/
-.rm-box .rm-block-text {
+.rm-box-navy-start .rm-block-text {
   padding: 10px;
   font-size: 13px !important;
-  border: 1px solid gray !important;
+  border: 1px solid navy !important;
   border-radius: 2px;
   max-width: 80%;
   margin-bottom: 10px;
   margin-top: 10px;
-  text-align: center;
-  color: gray
+  text-align: start;
+  color: navy;
 }
-
-span[data-tag^=".box"] {
-  display: none !important;
-}
-
-.rm-box-orange .rm-block-text {
+.rm-box-navy-end .rm-block-text {
   padding: 10px;
   font-size: 13px !important;
-  border: 1px solid #FF9800 !important;
+  border: 1px solid navy !important;
   border-radius: 2px;
   max-width: 80%;
   margin-bottom: 10px;
   margin-top: 10px;
-  text-align: center;
-  color: orange
+  text-align: end;
+  color: navy;
 }
-
-.rm-box-teal .rm-block-text {
-  padding: 10px;
-  font-size: 13px !important;
-  border: 1px solid teal !important;
-  border-radius: 2px;
-  max-width: 80%;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  text-align: center;
-  color: teal
-}
-
-.rm-box-purple .rm-block-text {
-  padding: 10px;
-  font-size: 13px !important;
-  border: 1px solid purple !important;
-  border-radius: 2px;
-  max-width: 80%;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  text-align: center;
-  color: purple
-}
-
-.rm-box-yellow .rm-block-text {
-  padding: 10px;
-  font-size: 13px !important;
-  border: 1px solid rgb(202, 202, 23) !important;
-  border-radius: 2px;
-  max-width: 80%;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  text-align: center;
-  color: rgb(202, 202, 23)
-}
-
-.rm-box-maroon .rm-block-text {
-  padding: 10px;
-  font-size: 13px !important;
-  border: 1px solid maroon !important;
-  border-radius: 2px;
-  max-width: 80%;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  text-align: center;
-  color: maroon
-}
-
-.rm-box-blue .rm-block-text {
-  padding: 10px;
-  font-size: 13px !important;
-  border: 1px solid blue !important;
-  border-radius: 2px;
-  max-width: 80%;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  text-align: center;
-  color: blue
-}
-
-.rm-box-navy .rm-block-text {
+.rm-box-navy-center .rm-block-text {
   padding: 10px;
   font-size: 13px !important;
   border: 1px solid navy !important;
@@ -113,5 +29,1028 @@ span[data-tag^=".box"] {
   margin-bottom: 10px;
   margin-top: 10px;
   text-align: center;
-  color: navy
+  color: navy;
+}
+.rm-box-navy-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid navy !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: navy;
+}
+.rm-box-navy-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid navy !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: navy;
+}
+.rm-box-navy-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid navy !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: navy;
+}
+.rm-box-blue-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid blue !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: blue;
+}
+.rm-box-blue-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid blue !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: blue;
+}
+.rm-box-blue-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid blue !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: blue;
+}
+.rm-box-blue-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid blue !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: blue;
+}
+.rm-box-blue-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid blue !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: blue;
+}
+.rm-box-blue-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid blue !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: blue;
+}
+.rm-box-aqua-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid aqua !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: aqua;
+}
+.rm-box-aqua-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid aqua !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: aqua;
+}
+.rm-box-aqua-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid aqua !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: aqua;
+}
+.rm-box-aqua-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid aqua !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: aqua;
+}
+.rm-box-aqua-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid aqua !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: aqua;
+}
+.rm-box-aqua-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid aqua !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: aqua;
+}
+.rm-box-teal-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid teal !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: teal;
+}
+.rm-box-teal-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid teal !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: teal;
+}
+.rm-box-teal-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid teal !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: teal;
+}
+.rm-box-teal-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid teal !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: teal;
+}
+.rm-box-teal-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid teal !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: teal;
+}
+.rm-box-teal-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid teal !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: teal;
+}
+.rm-box-olive-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid olive !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: olive;
+}
+.rm-box-olive-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid olive !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: olive;
+}
+.rm-box-olive-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid olive !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: olive;
+}
+.rm-box-olive-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid olive !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: olive;
+}
+.rm-box-olive-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid olive !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: olive;
+}
+.rm-box-olive-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid olive !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: olive;
+}
+.rm-box-green-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid green !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: green;
+}
+.rm-box-green-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid green !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: green;
+}
+.rm-box-green-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid green !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: green;
+}
+.rm-box-green-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid green !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: green;
+}
+.rm-box-green-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid green !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: green;
+}
+.rm-box-green-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid green !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: green;
+}
+.rm-box-lime-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid lime !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: lime;
+}
+.rm-box-lime-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid lime !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: lime;
+}
+.rm-box-lime-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid lime !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: lime;
+}
+.rm-box-lime-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid lime !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: lime;
+}
+.rm-box-lime-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid lime !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: lime;
+}
+.rm-box-lime-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid lime !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: lime;
+}
+.rm-box-yellow-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid yellow !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: yellow;
+}
+.rm-box-yellow-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid yellow !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: yellow;
+}
+.rm-box-yellow-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid yellow !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: yellow;
+}
+.rm-box-yellow-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid yellow !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: yellow;
+}
+.rm-box-yellow-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid yellow !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: yellow;
+}
+.rm-box-yellow-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid yellow !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: yellow;
+}
+.rm-box-orange-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid orange !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: orange;
+}
+.rm-box-orange-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid orange !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: orange;
+}
+.rm-box-orange-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid orange !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: orange;
+}
+.rm-box-orange-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid orange !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: orange;
+}
+.rm-box-orange-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid orange !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: orange;
+}
+.rm-box-orange-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid orange !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: orange;
+}
+.rm-box-red-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid red !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: red;
+}
+.rm-box-red-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid red !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: red;
+}
+.rm-box-red-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid red !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: red;
+}
+.rm-box-red-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid red !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: red;
+}
+.rm-box-red-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid red !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: red;
+}
+.rm-box-red-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid red !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: red;
+}
+.rm-box-fuchsia-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid fuchsia !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: fuchsia;
+}
+.rm-box-fuchsia-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid fuchsia !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: fuchsia;
+}
+.rm-box-fuchsia-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid fuchsia !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: fuchsia;
+}
+.rm-box-fuchsia-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid fuchsia !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: fuchsia;
+}
+.rm-box-fuchsia-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid fuchsia !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: fuchsia;
+}
+.rm-box-fuchsia-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid fuchsia !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: fuchsia;
+}
+.rm-box-purple-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid purple !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: purple;
+}
+.rm-box-purple-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid purple !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: purple;
+}
+.rm-box-purple-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid purple !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: purple;
+}
+.rm-box-purple-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid purple !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: purple;
+}
+.rm-box-purple-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid purple !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: purple;
+}
+.rm-box-purple-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid purple !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: purple;
+}
+.rm-box-maroon-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid maroon !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: maroon;
+}
+.rm-box-maroon-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid maroon !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: maroon;
+}
+.rm-box-maroon-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid maroon !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: maroon;
+}
+.rm-box-maroon-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid maroon !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: maroon;
+}
+.rm-box-maroon-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid maroon !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: maroon;
+}
+.rm-box-maroon-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid maroon !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: maroon;
+}
+.rm-box-silver-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid silver !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: silver;
+}
+.rm-box-silver-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid silver !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: silver;
+}
+.rm-box-silver-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid silver !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: silver;
+}
+.rm-box-silver-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid silver !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: silver;
+}
+.rm-box-silver-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid silver !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: silver;
+}
+.rm-box-silver-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid silver !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: silver;
+}
+.rm-box-gray-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid gray !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: gray;
+}
+.rm-box-gray-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid gray !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: gray;
+}
+.rm-box-gray-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid gray !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: gray;
+}
+.rm-box-gray-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid gray !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: gray;
+}
+.rm-box-gray-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid gray !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: gray;
+}
+.rm-box-gray-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid gray !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: gray;
+}
+.rm-box-black-start .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid black !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
+  color: black;
+}
+.rm-box-black-end .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid black !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: end;
+  color: black;
+}
+.rm-box-black-center .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid black !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: black;
+}
+.rm-box-black-left .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid black !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  color: black;
+}
+.rm-box-black-right .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid black !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: right;
+  color: black;
+}
+.rm-box-black-justify .rm-block-text {
+  padding: 10px;
+  font-size: 13px !important;
+  border: 1px solid black !important;
+  border-radius: 2px;
+  max-width: 80%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  color: black;
 }

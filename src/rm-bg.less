@@ -1,0 +1,23 @@
+@import "./common/index.less";
+
+@color-weights: {
+  // key: className, value: opacity
+  100: 0.5;
+  200: 0.6;
+  300: 0.7;
+  400: 0.8;
+  500: 0.9;
+  600: 1;
+}
+
+.genBlockBackgroundStyles() {
+  each(@color-list, .(@color, @i) {
+      each(@color-weights, .(@opacity, @className, @j) {
+          [data-page-links*=".rm-bg-@{color}-@{className}"]>.rm-block-main {
+            background: fade(@color, @opacity * 100);
+          }
+        });
+    });
+}
+
+.genBlockBackgroundStyles();

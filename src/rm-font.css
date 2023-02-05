@@ -15,7 +15,7 @@
 }
 [data-tag^=".rm-font-navy"] + .rm-italics,
 [data-tag^=".rm-font-navy"] + .rm-bold {
-  color: navy;
+  color: navy !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-blue"] + span > .rm-page-ref--link {
@@ -23,7 +23,7 @@
 }
 [data-tag^=".rm-font-blue"] + .rm-italics,
 [data-tag^=".rm-font-blue"] + .rm-bold {
-  color: blue;
+  color: blue !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-aqua"] + span > .rm-page-ref--link {
@@ -31,7 +31,7 @@
 }
 [data-tag^=".rm-font-aqua"] + .rm-italics,
 [data-tag^=".rm-font-aqua"] + .rm-bold {
-  color: aqua;
+  color: aqua !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-teal"] + span > .rm-page-ref--link {
@@ -39,7 +39,7 @@
 }
 [data-tag^=".rm-font-teal"] + .rm-italics,
 [data-tag^=".rm-font-teal"] + .rm-bold {
-  color: teal;
+  color: teal !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-olive"] + span > .rm-page-ref--link {
@@ -47,7 +47,7 @@
 }
 [data-tag^=".rm-font-olive"] + .rm-italics,
 [data-tag^=".rm-font-olive"] + .rm-bold {
-  color: olive;
+  color: olive !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-green"] + span > .rm-page-ref--link {
@@ -55,7 +55,7 @@
 }
 [data-tag^=".rm-font-green"] + .rm-italics,
 [data-tag^=".rm-font-green"] + .rm-bold {
-  color: green;
+  color: green !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-lime"] + span > .rm-page-ref--link {
@@ -63,7 +63,7 @@
 }
 [data-tag^=".rm-font-lime"] + .rm-italics,
 [data-tag^=".rm-font-lime"] + .rm-bold {
-  color: lime;
+  color: lime !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-yellow"] + span > .rm-page-ref--link {
@@ -71,7 +71,7 @@
 }
 [data-tag^=".rm-font-yellow"] + .rm-italics,
 [data-tag^=".rm-font-yellow"] + .rm-bold {
-  color: yellow;
+  color: yellow !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-orange"] + span > .rm-page-ref--link {
@@ -79,7 +79,7 @@
 }
 [data-tag^=".rm-font-orange"] + .rm-italics,
 [data-tag^=".rm-font-orange"] + .rm-bold {
-  color: orange;
+  color: orange !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-red"] + span > .rm-page-ref--link {
@@ -87,7 +87,7 @@
 }
 [data-tag^=".rm-font-red"] + .rm-italics,
 [data-tag^=".rm-font-red"] + .rm-bold {
-  color: red;
+  color: red !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-fuchsia"] + span > .rm-page-ref--link {
@@ -95,7 +95,7 @@
 }
 [data-tag^=".rm-font-fuchsia"] + .rm-italics,
 [data-tag^=".rm-font-fuchsia"] + .rm-bold {
-  color: fuchsia;
+  color: fuchsia !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-purple"] + span > .rm-page-ref--link {
@@ -103,7 +103,7 @@
 }
 [data-tag^=".rm-font-purple"] + .rm-italics,
 [data-tag^=".rm-font-purple"] + .rm-bold {
-  color: purple;
+  color: purple !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-maroon"] + span > .rm-page-ref--link {
@@ -111,7 +111,7 @@
 }
 [data-tag^=".rm-font-maroon"] + .rm-italics,
 [data-tag^=".rm-font-maroon"] + .rm-bold {
-  color: maroon;
+  color: maroon !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-silver"] + span > .rm-page-ref--link {
@@ -119,7 +119,7 @@
 }
 [data-tag^=".rm-font-silver"] + .rm-italics,
 [data-tag^=".rm-font-silver"] + .rm-bold {
-  color: silver;
+  color: silver !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-gray"] + span > .rm-page-ref--link {
@@ -127,7 +127,7 @@
 }
 [data-tag^=".rm-font-gray"] + .rm-italics,
 [data-tag^=".rm-font-gray"] + .rm-bold {
-  color: gray;
+  color: gray !important;
 }
 /* ---------------------------------*/
 [data-tag^=".rm-font-black"] + span > .rm-page-ref--link {
@@ -135,5 +135,5 @@
 }
 [data-tag^=".rm-font-black"] + .rm-italics,
 [data-tag^=".rm-font-black"] + .rm-bold {
-  color: black;
+  color: black !important;
 }
