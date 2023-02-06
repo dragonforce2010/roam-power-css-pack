@@ -1,0 +1,11 @@
+@import "./common/index.less";
+
+.genAllRmFontFamiliesStyle() {
+  each(@font-families, .(@fontFamily) {
+      [data-page-links*=".rm-font-family-@{fontFamily}"] span {
+        font-family: @fontFamily
+      }
+    })
+}
+
+.genAllRmFontFamiliesStyle();

@@ -1,11 +1,14 @@
-import "./rainbow.css"
-import "./rm-bg.css"
-import "./rm-box.css"
-import "./rm-font.css"
-import "./rm-grid.css"
-import "./rm-level-font.css"
-import "./rm-level-bg.css"
 import "./global.css"
+import "./rainbow.css"
+import "./rm-box.css"
+import "./rm-grid.css"
+import "./rm-border.css"
+import "./rm-bg.css"
+import "./rm-bg-level.css"
+import "./rm-font-level.css"
+import "./rm-font-family.css"
+import "./rm-font-color.css"
+import "./rm-font-size.css"
 
 const onload = () => {
   // empty implementation for now

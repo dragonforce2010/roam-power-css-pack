@@ -13,18 +13,13 @@
   font-weight: bold;
 }
 
-.genAllRmFontStyleStyle() {
+.genAllRmFontColorStyle() {
   .loop(@i) when (@i < length(@color-classname-list) + 1) {
     @fontClassName: extract(@color-classname-list, @i);
     @fontColor: extract(@color-list, @i);
 
     /* ---------------------------------*/
-    [data-tag^=".rm-font-@{fontClassName}"]+span>.rm-page-ref--link {
-      background-color: @fontColor !important;
-    }
-
-    [data-tag^=".rm-font-@{fontClassName}"]+.rm-italics,
-    [data-tag^=".rm-font-@{fontClassName}"]+.rm-bold {
+    [data-page-links*=".rm-font-@{fontClassName}"] span {
       color: @fontColor !important;
     }
 
@@ -34,4 +29,12 @@
   .loop(1)
 }
 
-.genAllRmFontStyleStyle();
+.genAllRmFontFamiliesStyle() {
+  each(@font-families, .(@fontFamily) {
+      [data-page-links*=".rm-font-family-@{value}"] span {
+        font-family: @fontFamily
+      }
+    })
+}
+
+.genAllRmFontColorStyle();
