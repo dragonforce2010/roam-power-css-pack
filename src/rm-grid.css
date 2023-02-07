@@ -12,32 +12,32 @@ span[data-tag*=".rm-grid"] {
 .roam-block-container[data-page-links*=".rm-grid1"] > .rm-block-children {
   display: grid;
   margin-left: 20px;
-  grid-template-columns: repeat(1, 50%);
+  grid-template-columns: repeat(1, auto);
 }
 .roam-block-container[data-page-links*=".rm-grid2"] > .rm-block-children {
   display: grid;
   margin-left: 20px;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(2, auto);
 }
 .roam-block-container[data-page-links*=".rm-grid3"] > .rm-block-children {
   display: grid;
   margin-left: 20px;
-  grid-template-columns: repeat(3, 50%);
+  grid-template-columns: repeat(3, auto);
 }
 .roam-block-container[data-page-links*=".rm-grid4"] > .rm-block-children {
   display: grid;
   margin-left: 20px;
-  grid-template-columns: repeat(4, 50%);
+  grid-template-columns: repeat(4, auto);
 }
 .roam-block-container[data-page-links*=".rm-grid5"] > .rm-block-children {
   display: grid;
   margin-left: 20px;
-  grid-template-columns: repeat(5, 50%);
+  grid-template-columns: repeat(5, auto);
 }
 .roam-block-container[data-page-links*=".rm-grid6"] > .rm-block-children {
   display: grid;
   margin-left: 20px;
-  grid-template-columns: repeat(6, 50%);
+  grid-template-columns: repeat(6, auto);
 }
 .roam-block-container[data-page-links*=".rm-grid-auto-100px"] .rm-block-children {
   display: grid;
