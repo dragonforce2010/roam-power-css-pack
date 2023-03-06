@@ -2,7 +2,11 @@
 
 This extension added a lot of useful css utilities to further enrich your roam experience. It's easy to use, you just need to put the specific tag in your block, then the corresponding styles will be applied. 
 
-There are 16 colors(`navy`,`blue`,`aqua`,`teal`,`olive`,`green`,`lime`,`yellow`,`orange``red`,`fuchsia`,`purple`,`maroon`,`silver`,`gray`,`black`) predefined in the extension, which can be used in any css styles tag provided by this extension. 
+- ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FExploreSpace%2FNEbRWl4T0z.04.18.gif?alt=media&token=28497774-a654-4a47-9fcf-901ade6de2d2)
+
+
+
+There are 16 colors(`navy`,`blue`,`aqua`,`teal`,`olive`,`green`,`lime`,`yellow`,`orange`,`red`,`fuchsia`,`purple`,`maroon`,`silver`,`gray`,`black`) predefined in the extension, which can be used in any css styles tag provided by this extension. 
 
 
 Below are some examples to demonstrate how to use this extension and how the block is rendered. `Roam Notes Content` is how you write notes your roam blocks with the specific css tags, `Render Results` is the final effect of applying the specific css tag from this extension.
@@ -23,7 +27,8 @@ This extension provides 6 of different boarder styles for rendering, all 6 borde
 
 ## Content Level Font Color Examples
 If you want to have different colors for different roam block level, then below is how this extension helps you with that.
-Note: the color is predefined, not support for configuration in roam plugin panel settings, but you can customize it in your [[roam/css]]
+
+`Note`: the color is predefined, not support for configuration in roam plugin panel settings, but you can customize it in your [[roam/css]]
 ### Roam Notes Content
 - **Content Level Font Color Examples**
     - level1
@@ -38,7 +43,8 @@ Note: the color is predefined, not support for configuration in roam plugin pane
 
 ## Content Level Backgroun Color Examples
 Similar to the above, if you want to have different backgroun colors for different roam block level, than below shows how to do it. You just need to put `#.rm-level-bg` in the roam block，then this block and its children block will be rendered with different background colors in different levels.
-Note: this background color for different level is predefined, not support for configuration in roam plugin panel settings, but you can customize it in your [[roam/css]]
+
+`Note`: this background color for different level is predefined, not support for configuration in roam plugin panel settings, but you can customize it in your [[roam/css]]
 ### Roam Notes Content
 - **Content Level Background Examples**
     - level1 background with color#.rm-level-bg #.rm-font-black
@@ -57,7 +63,9 @@ Note: this background color for different level is predefined, not support for c
 
 
 ## Block Background Color Examples
-If you want to render a block with specific background color(only block itself, children block will not be affected), you can use `#.rm-bg-orange-100` tag, you can use any other predefined colors to replace `orange` in the tag. `100` stands for color opacity, you have 6 opacity(`100`, `200`, `300`, `400`, `500`, `600`) to use
+If you want to render a block with specific background color(only block itself, children block will not be affected), you can use `#.rm-bg-orange-100` tag
+- `orange` stands for the background color, you can use any other predefined colors(16 colors) to replace `orange` in the tag. 
+- `100` stands for color opacity, you have 6 opacity(`100`, `200`, `300`, `400`, `500`, `600`) to use
 ### Roam Notes Content
 - level10 background with color
 - Block Background Examples #.rm-font-white
@@ -83,9 +91,9 @@ If you want to render a block with specific background color(only block itself, 
 ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FExploreSpace%2F_jlqJRunQL.png?alt=media&token=22591613-ba8c-4b04-80f9-787f5d191d35)
 ## Font Styles Examples
 You have three kinds of tags to control the font.
-`#.rm-font-orange`: control the color of the font, you have 16 colors to choose from.
-`#.rm-font-family-fantasy`: control the font family of the font, there are 13 font families(`serif, sans-serif, monospace, cursive, fantasy, system-ui, ui-serif, ui-sans-serif, ui-monospace, ui-rounded, emoji, math, fangsong`) are available for you to use. 
-`#.rm-font-20px`: control the font size, you can set the font size between 12 and 72
+- `#.rm-font-orange`: control the color of the font, you have 16 colors to choose from.
+- `#.rm-font-family-fantasy`: control the font family of the font, there are 13 font families(`serif, sans-serif, monospace, cursive, fantasy, system-ui, ui-serif, ui-sans-serif, ui-monospace, ui-rounded, emoji, math, fangsong`) are available for you to use. 
+- `#.rm-font-20px`: control the font size, you can set the font size between 12 and 72
 ### Roam Notes Content
 - Font Examples
     - font color is orange and font family is fantasy, font size is 32 #.rm-font-orange #.rm-font-family-fantasy #.rm-font-32px
@@ -136,6 +144,7 @@ You can add a border to your roam block and specify the alignment fo the content
 
 ## Grid Layout Examples
 This is what I like the most, layout style tags really give you the freedom to further customize you roam notes. You can have more layout options to rearrange your blocks to have a better visual effect.
+
 `#.rm-grid2`: `2` stands for how many blocks are there in one row, the option values are as follows: `2, 3, 4, 5, 6`
 ### Two Columns
 #### Roam Notes Content
