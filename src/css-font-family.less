@@ -1,0 +1,11 @@
+@import './common/index.less';
+
+.genAllRmFontFamiliesStyle() {
+  each(@font-families, .(@fontFamily) {
+    .power-css-pack [data-page-links*=".css-font-family-@{fontFamily}"] span {
+        font-family: @fontFamily
+      }
+    });
+}
+
+.genAllRmFontFamiliesStyle();

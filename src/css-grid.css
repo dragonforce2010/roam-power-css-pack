@@ -1,0 +1,116 @@
+.power-css-pack span[data-tag*='.css-grid'] {
+  display: none !important;
+}
+.power-css-pack .roam-block-container[data-page-links*='.css-grid'] .rm-multibar {
+  display: none;
+}
+.power-css-pack .roam-block-container[data-page-links*='.css-grid-auto'] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid1"] > .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(1, auto);
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid2"] > .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(2, auto);
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid3"] > .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(3, auto);
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid4"] > .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(4, auto);
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid5"] > .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(5, auto);
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid6"] > .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(6, auto);
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-100px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-150px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-200px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-250px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-300px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-350px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-400px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-450pxl"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(450pxl, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-500px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-550px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-600px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-650px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(650px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-700px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-750px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(750px, 1fr));
+}
+.power-css-pack .roam-block-container[data-page-links*=".css-grid-auto-800px"] .rm-block-children {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+}

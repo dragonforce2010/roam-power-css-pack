@@ -1,9 +1,9 @@
-@import "./common/index.less";
+@import './common/index.less';
 
 .genBoxStyles() {
   each(@color-list, .(@color) {
       each(@align-direction, .(@direction) {
-          .rm-box-@{color}-@{direction} .rm-block-text {
+        .power-css-pack .css-box-@{color}-@{direction} .rm-block-text {
             padding: 10px;
             font-size: 13px !important;
             border: 1px solid @color !important;

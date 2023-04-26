@@ -1,8 +1,8 @@
-[data-tag^=".rm-font-"] {
+[data-tag^='.css-font-'] {
   display: none !important;
 }
-[data-tag^=".rm-font-"] + .rm-highlight,
-[data-tag^=".rm-font-"] + span > .rm-page-ref--link {
+[data-tag^='.css-font-'] + .rm-highlight,
+[data-tag^='.css-font-'] + span > .rm-page-ref--link {
   color: white !important;
   border-radius: 5px;
   padding-left: 5px;
@@ -10,66 +10,66 @@
   font-weight: bold;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-navy"] span {
+.power-css-pack [data-page-links*='.css-font-navy'] span {
   color: navy !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-blue"] span {
+.power-css-pack [data-page-links*='.css-font-blue'] span {
   color: blue !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-aqua"] span {
+.power-css-pack [data-page-links*='.css-font-aqua'] span {
   color: aqua !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-teal"] span {
+.power-css-pack [data-page-links*='.css-font-teal'] span {
   color: teal !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-olive"] span {
+.power-css-pack [data-page-links*='.css-font-olive'] span {
   color: olive !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-green"] span {
+.power-css-pack [data-page-links*='.css-font-green'] span {
   color: green !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-lime"] span {
+.power-css-pack [data-page-links*='.css-font-lime'] span {
   color: lime !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-yellow"] span {
+.power-css-pack [data-page-links*='.css-font-yellow'] span {
   color: yellow !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-orange"] span {
+.power-css-pack [data-page-links*='.css-font-orange'] span {
   color: orange !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-red"] span {
+.power-css-pack [data-page-links*='.css-font-red'] span {
   color: red !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-fuchsia"] span {
+.power-css-pack [data-page-links*='.css-font-fuchsia'] span {
   color: fuchsia !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-purple"] span {
+.power-css-pack [data-page-links*='.css-font-purple'] span {
   color: purple !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-maroon"] span {
+.power-css-pack [data-page-links*='.css-font-maroon'] span {
   color: maroon !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-silver"] span {
+.power-css-pack [data-page-links*='.css-font-silver'] span {
   color: silver !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-gray"] span {
+.power-css-pack [data-page-links*='.css-font-gray'] span {
   color: gray !important;
 }
 /* ---------------------------------*/
-[data-page-links*=".rm-font-black"] span {
+.power-css-pack [data-page-links*='.css-font-black'] span {
   color: black !important;
 }

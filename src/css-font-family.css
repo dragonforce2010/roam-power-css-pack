@@ -1,0 +1,39 @@
+.power-css-pack [data-page-links*=".css-font-family-serif"] span {
+  font-family: serif;
+}
+.power-css-pack [data-page-links*=".css-font-family-sans-serif"] span {
+  font-family: sans-serif;
+}
+.power-css-pack [data-page-links*=".css-font-family-monospace"] span {
+  font-family: monospace;
+}
+.power-css-pack [data-page-links*=".css-font-family-cursive"] span {
+  font-family: cursive;
+}
+.power-css-pack [data-page-links*=".css-font-family-fantasy"] span {
+  font-family: fantasy;
+}
+.power-css-pack [data-page-links*=".css-font-family-system-ui"] span {
+  font-family: system-ui;
+}
+.power-css-pack [data-page-links*=".css-font-family-ui-serif"] span {
+  font-family: ui-serif;
+}
+.power-css-pack [data-page-links*=".css-font-family-ui-sans-serif"] span {
+  font-family: ui-sans-serif;
+}
+.power-css-pack [data-page-links*=".css-font-family-ui-monospace"] span {
+  font-family: ui-monospace;
+}
+.power-css-pack [data-page-links*=".css-font-family-ui-rounded"] span {
+  font-family: ui-rounded;
+}
+.power-css-pack [data-page-links*=".css-font-family-emoji"] span {
+  font-family: emoji;
+}
+.power-css-pack [data-page-links*=".css-font-family-math"] span {
+  font-family: math;
+}
+.power-css-pack [data-page-links*=".css-font-family-fangsong"] span {
+  font-family: fangsong;
+}

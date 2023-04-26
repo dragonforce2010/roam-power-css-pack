@@ -1,0 +1,15 @@
+.genFontSizeStyles() {
+  .loop(@i) when (@i <=72) {
+    @fontSize: ~'@{i}px';
+
+    .power-css-pack [data-page-links*='.css-font-@{i}px'] span {
+      font-size: @fontSize !important;
+    }
+
+    .loop(@i + 1);
+  }
+
+  .loop(12);
+}
+
+.genFontSizeStyles();

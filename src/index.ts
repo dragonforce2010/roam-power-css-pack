@@ -1,21 +1,19 @@
-import "./global.css"
-import "./rainbow.css"
-import "./rm-box.css"
-import "./rm-grid.css"
-import "./rm-border.css"
-import "./rm-bg.css"
-import "./rm-bg-level.css"
-import "./rm-font-level.css"
-import "./rm-font-family.css"
-import "./rm-font-color.css"
-import "./rm-font-size.css"
+import "./css-box.css"
+import "./css-grid.css"
+import "./css-border.css"
+import "./css-bg.css"
+import "./css-bg-level.css"
+import "./css-font-level.css"
+import "./css-font-family.css"
+import "./css-font-color.css"
+import "./css-font-size.css"
 
 const onload = () => {
-  // empty implementation for now
+  document.body.classList.add('power-css-pack')
 }
 
 const onunload = () => {
-  // empty implementation for now
+  document.body.classList.remove('power-css-pack')
 }
 
 export default {

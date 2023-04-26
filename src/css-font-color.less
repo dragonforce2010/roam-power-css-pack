@@ -1,11 +1,11 @@
-@import "./common/index.less";
+@import './common/index.less';
 
-[data-tag^=".rm-font-"] {
+[data-tag^='.css-font-'] {
   display: none !important;
 }
 
-[data-tag^=".rm-font-"]+.rm-highlight,
-[data-tag^=".rm-font-"]+span>.rm-page-ref--link {
+[data-tag^='.css-font-'] + .rm-highlight,
+[data-tag^='.css-font-'] + span > .rm-page-ref--link {
   color: white !important;
   border-radius: 5px;
   padding-left: 5px;
@@ -19,22 +19,22 @@
     @fontColor: extract(@color-list, @i);
 
     /* ---------------------------------*/
-    [data-page-links*=".rm-font-@{fontClassName}"] span {
+    .power-css-pack [data-page-links*='.css-font-@{fontClassName}'] span {
       color: @fontColor !important;
     }
 
-    .loop(@i + 1)
+    .loop(@i + 1);
   }
 
-  .loop(1)
+  .loop(1);
 }
 
 .genAllRmFontFamiliesStyle() {
   each(@font-families, .(@fontFamily) {
-      [data-page-links*=".rm-font-family-@{value}"] span {
+    .power-css-pack [data-page-links*=".css-font-family-@{value}"] span {
         font-family: @fontFamily
       }
-    })
+    });
 }
 
 .genAllRmFontColorStyle();

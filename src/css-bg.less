@@ -1,4 +1,4 @@
-@import "./common/index.less";
+@import './common/index.less';
 
 @color-weights: {
   // key: className, value: opacity
@@ -8,12 +8,12 @@
   400: 0.8;
   500: 0.9;
   600: 1;
-}
+};
 
 .genBlockBackgroundStyles() {
   each(@color-list, .(@color, @i) {
       each(@color-weights, .(@opacity, @className, @j) {
-          [data-page-links*=".rm-bg-@{color}-@{className}"]>.rm-block-main {
+        .power-css-pack [data-page-links*=".css-bg-@{color}-@{className}"]>.rm-block-main {
             background: fade(@color, @opacity * 100);
           }
         });
