@@ -29,13 +29,13 @@ If you want to have different colors for different roam block level, then below 
 
 `Note`: the color is predefined, not support for configuration in roam plugin panel settings, but you can customize it in your [[roam/css]]
 ### Roam Notes Content
-- **Content Level Font Color Examples**
+- **Content Level Font Color Examples** #.css-level-color
     - level1
         - level2
             - level3
                 - level4
                     - level5
-                        - level6 #.css-font-yellow
+                        - level6
 ### Render Result
 ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FExploreSpace%2Fj2BCjw8Unw.png?alt=media&token=14f3347a-8f90-4ee9-8837-9cf1844ac520)
 
